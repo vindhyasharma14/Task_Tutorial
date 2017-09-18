@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="opp">Object Oreinted programming is a programming language model orgenized around objects rather than actions and data
+    rather than logic.\n It simplifies the software development and maintenance by providing some concepts:\n
+        \u2022 Object\n
+        \u2022 Class\n
+        \u2022 Inheritance\n
+        \u2022 Polymorphism\n
+        \u2022 Abstraction\n
+        \u2022 Encapsulation\n
+    </string>
+    <string name="object">Object is termed as an instance of a class ,and it has its own state ,behavior and identity.For example: chair, pen, table, keyboard, bike etc.
+        It can be physical and logical.</string>
+    <string name="Class">Collection of objects is called class. It is a logical entity.</string>
+    <string name="abstraction">Hiding internal details and showing functionality is known as abstraction. For example: phone call,
+        we dont know the internal processing.
+        In java,we use abstract class and interface to achieve abstraction.</string>
+    <string name="inheritence">When one object acquires all the properties and behaviours of parent object i.e. known as inheritance.
+        It provides code reusability. It is used to achieve runtime polymorphism.</string>
+    <string name="encapsulation">Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
+        A java class is the example of encapsulation.
+        Java bean is the fully encapsulated class because all the data members are private here.</string>
+    <string name="polymorphism">When one task is performed by different ways i.e. known as polymorphism. For example: to convince the customer differently, to draw something e.g. shape or rectangle etc.
+        In java, we use method overloading and method overriding to achieve polymorphism.Another example can be to speak
+        something e.g. cat speaks meaw, dog barks woof etc.</string>
+    <string name="android">Android Activity Lifecycle is controlled by 7 methods of android.app.Activity class.An activity is the single screen in android. It is like window or frame of Java.
+
+By the help of activity, you can place all your UI components or widgets in a single screen.
+
+The 7 lifecycle method of Activity describes how activity will behave at different states.</string>
+    <string name="Android">
+Every single screen of  android depend on two part\n
+Java – it is called as activity\n
+Xml – it is called as layout.\n
+Activity have four states:\n
+\u2022 does not exit state\n
+
+\u2022 foreground state\n
+
+\u2022 background state\n
+
+\u2022 Pause\n
+
+ Activity is having seven major methods:\n
+\u2022 OnCreat();  -  called when activity is first created.\n
+\u2022 OnStart(); - called when activity is becoming visible to the user.\n
+\u2022 OnResume(); - called when activity will start interacting with the user.\n
+\u2022 OnPause();- called when activity is not visible to the user.\n
+\u2022 OnStop(); - called when activity is no longer visible to the user\n
+\u2022 OnRestart();-called after your activity is stopped, prior to start.\n
+\u2022 OnDestroy();-called before the activity is destroyed.\n
+        look at the figure \n
+
+    </string>
+</resources>

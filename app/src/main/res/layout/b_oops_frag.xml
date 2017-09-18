@@ -1,0 +1,194 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <ScrollView
+
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:padding="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:padding="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:background="@drawable/card_background"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:textSize="15sp"
+                       android:textColor="@color/colorAccent"
+                       android:text="Object Oriented Programming"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginTop="5dp"
+                       android:text="@string/opp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+
+
+               </LinearLayout>
+               <LinearLayout
+                   android:padding="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:background="@drawable/card_background"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:textSize="15sp"
+                       android:textColor="@color/colorAccent"
+                       android:text="Object"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginTop="5dp"
+                       android:text="@string/object"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+
+
+
+               </LinearLayout>
+               <LinearLayout
+                   android:padding="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:background="@drawable/card_background"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:textSize="15sp"
+                       android:textColor="@color/colorAccent"
+                       android:text="Class"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginTop="5dp"
+                       android:text="@string/Class"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+
+
+               </LinearLayout>
+               <LinearLayout
+                   android:padding="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:background="@drawable/card_background"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:textSize="15sp"
+                       android:textColor="@color/colorAccent"
+                       android:text="Inheritence"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginTop="5dp"
+                       android:text="@string/inheritence"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+
+
+
+               </LinearLayout>
+               <LinearLayout
+                   android:padding="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:background="@drawable/card_background"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:textSize="15sp"
+                       android:textColor="@color/colorAccent"
+                       android:text="Polymorphism"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginTop="5dp"
+                       android:text="@string/polymorphism"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+
+               </LinearLayout>
+               <LinearLayout
+                   android:padding="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:background="@drawable/card_background"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:textSize="15sp"
+                       android:textColor="@color/colorAccent"
+                       android:text="Abstraction"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginTop="5dp"
+                       android:text="@string/abstraction"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:padding="10dp"
+                   android:layout_marginBottom="5dp"
+                   android:background="@drawable/card_background"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:textSize="15sp"
+                       android:textColor="@color/colorAccent"
+                       android:text="Encapsulation"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginTop="5dp"
+                       android:text="@string/encapsulation"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </ScrollView>
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
